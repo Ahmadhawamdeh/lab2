@@ -1,11 +1,12 @@
 'use strict';
 
 var name = prompt('whats your name?');
-alert('welcome  '  +name)
+alert('welcome  ' + name)
 
 
-var name = prompt('Do you know what my name is??');
+var name = prompt('Do you know what my name is?');
 name = name.toLowerCase();
+//console.log ("Great"); 
 if (name == 'yes') {
     alert(" WOW!! You made me happy");
 } else if (name == 'y') {
@@ -15,55 +16,54 @@ else if (name == 'no') {
     alert("Saddened me!");
 }
 
-
-
 var age = prompt('Do you know how old I am?');
+//console.log ("Great Job"); 
 age = age.toLowerCase();
 if (age == 'yes') {
-    alert(" very good");
+    alert(" WOW!! very good");
 } else if (age == 'y') {
-    alert(" very good");
+    alert(" WOW!! very good");
 }
 else if (age == 'no') {
-    alert("ooh!! iam sad");
+    alert("i am in 26 !");
 }
-
 
 var addriss = prompt('Now tell me do you know my address?');
-Addresses = Addresses.toLowerCase();
-if (Addresses == 'yes') {
-    alert(" very good");
-} else if (Addresses == 'y') {
-    alert(" very good");
+//console.log ("Great"); 
+addriss = addriss.toLowerCase();
+if (addriss == 'yes') {
+    alert(" WOW!! very good");
+} else if (addriss == 'y') {
+    alert(" WOW!! very good");
 }
-else if (Addresses == 'no') {
+else if (addriss == 'no') {
     alert("i am in amman city - university street");
 }
 
+
 var stud = prompt('Tell me do you know what my studies are?');
+//console.log ("Great"); 
 stud = stud.toLowerCase();
 if (stud == 'yes') {
-    alert(" very good");
+    alert(" WOW!! You are great");
 } else if (stud == 'y') {
-    alert(" very good");
+    alert(" WOW!! You are great");
 }
 else if (stud == 'no') {
     alert("i am studed MIS");
-}     
+}
 
 var sport = prompt('do you know what my fav sport ?');
+//console.log ("Great"); 
 sport = sport.toLowerCase();
 if (sport == 'yes') {
-    alert("great");
+    alert(" oki ! great");
 } else if (sport == 'y') {
-    alert(" great");
+    alert(" oki ! great");
 }
 else if (sport == 'no') {
-    alert("i love boxing ");
-}     
-
-
-
+    alert("i love football");
+}
 
 //switch (summer) {
 
