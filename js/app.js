@@ -13,7 +13,7 @@ if (name == 'yes') {
     alert(" WOW!! You made me happy");
 }
 else if (name == 'no') {
-    alert("Saddened me!");
+   alert("Saddened me!");
 }
 
 var age = prompt('Do you know how old I am?');
