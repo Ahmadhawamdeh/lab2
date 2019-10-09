@@ -3,7 +3,8 @@ var user = prompt(" whats you name ? ")
 alert("Welcome You Here " + user + " I wish You Enjoy Knowing Me..")
 var counter = 0;
 var questions = [
-    ["Do you know what my name is?",
+    [
+        "Do you know what my name is?",
         " Great ",
         " It's OK.. Actually my name is ahmad",
     ],
@@ -39,9 +40,9 @@ for (var i = 0; i < 5; i++) {
     switch (name) {
         case "yes":
         case "y":
-           
+
             alert(posetiveReply);
-            counter = counter +1;
+            counter = counter + 1;
             break;
         case "no":
         case "n":
@@ -61,7 +62,7 @@ for (var sum = 0; sum < 4; sum++) {
         break;
     } else if (smoke > 15) {
         alert("mmm , not Daily");
-      
+
         console.log(smoke);
     } else if (smoke < 15) {
         alert(" too low add A little");
@@ -82,7 +83,7 @@ for (var times = 0; times < 5; times++) {
 
             alert(" You are right.. My fav touristic places are:- dubai , petra , sharm , taba , Dead Sea , paris , roma ");
             counter = counter + 1;
-           
+
             console.log(play);
 
             times = 5;
